@@ -1,0 +1,36 @@
+{
+  "name": "grab_helper",
+  "version": "0.0.1",
+  "description": "GranBlueFantasy assist tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BigWestGang <big.west.e.x.troopers@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "electron": "^1.6.11",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
