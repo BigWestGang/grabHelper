@@ -4,14 +4,16 @@
   "description": "GranBlueFantasy assist tool.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "author": "BigWestGang <big.west.e.x.troopers@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "electron-packager": "^8.7.2",
